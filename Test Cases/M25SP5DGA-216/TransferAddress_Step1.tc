@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TransferAddress</name>
+   <name>TransferAddress_Step1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bf9e0d22-187a-4d03-bd37-e48285ef761e</testCaseGuid>
+   <testCaseGuid>c1b3ab62-514c-4c6b-a31b-288a8aeed9eb</testCaseGuid>
 </TestCaseEntity>

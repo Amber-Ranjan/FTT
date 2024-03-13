@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Transfer_Overseas</name>
+   <name>AddressSteps</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,72 +10,44 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>a9771026-05e2-4c04-931c-24f69a9bfbb9</testSuiteGuid>
+   <testSuiteGuid>650289f5-31af-4e56-bf1f-c4bd23d85b5a</testSuiteGuid>
    <testCaseLink>
-      <guid>b059235a-0563-4440-adf0-77261152cd2e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/M25SP5DGA-208/CASA_WalletDashboard</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ae93de28-f8c9-4c86-a118-22eaa072a8b6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/M25SP5DGA-212/Transfer_Overseas</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d104d743-8cbf-45a5-aba1-cb43efe55d45</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/M25SP5DGA-214/Debiting_Account</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>824b8217-2bc7-4849-9ec0-04fb05b3f1ab</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/M25SP5DGA-215/TransferAmount</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c332c151-52a0-4b9f-839f-778fcb3fcfda</guid>
+      <guid>6fce858f-5781-4fa3-98f7-0c15e1c755c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferAddress_Step1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>99970865-f8a0-4312-befa-862f77db5c83</guid>
+      <guid>63d7c49f-84f2-4f09-bfd6-d268605c2b32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferAddress_Step1.5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5c6f75f-82b7-47f4-bb40-01c882e7b00b</guid>
+      <guid>8aaf9418-32d9-4b51-b3e0-343b657234be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferAddress_Step2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3020180e-b308-4ffe-b3eb-7baa0641ab9c</guid>
+      <guid>479c2017-cf1e-4be1-802c-9272812cc9f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferAddress_Step3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>897a1119-730d-4455-89c7-1c943b1187fe</guid>
+      <guid>9a0c950e-ae08-4c5f-bfdf-4f9e73ffba30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferAddress_Step4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5682114-c00f-4370-a47a-70e7e668b5c5</guid>
+      <guid>4e141876-7a2f-4091-92c7-2505186898ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/M25SP5DGA-216/TransferConfirmation</testCaseId>

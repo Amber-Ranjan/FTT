@@ -45,8 +45,8 @@ Mobile.takeScreenshot()
 Mobile.tap(findTestObject('Object Repository/M25SP5DGA-215/03_TapOn - 5'), 0)
 
 'User enters 0 five times'
-for (int i = 0; i < 5; i++) {
-    //Tap on Number 5 times
+for (int i = 0; i < 3; i++) {
+    //Tap on Number 3 times
     Mobile.tap(findTestObject('Object Repository/M25SP5DGA-215/04_TapOn - 0'), 0)
 }
 
@@ -75,7 +75,7 @@ Mobile.takeScreenshot('C:\\Users\\AMBRAN~1\\AppData\\Local\\Temp\\screenshot6227
 Mobile.takeScreenshot()
 
 'Tap on back button'
-Mobile.tap(findTestObject('Object Repository/M25SP5DGA-215/07_TapOnBackIcon'), 0)
+Mobile.tap(findTestObject('Object Repository/M25SP5DGA-215/7.1_TapOnBack'), 0)
 
 'Take screenshot once user navigated back to amount entry screen'
 Mobile.takeScreenshot('C:\\Users\\AMBRAN~1\\AppData\\Local\\Temp\\screenshot622798863046857208.png')

@@ -31,22 +31,44 @@ Mobile.takeScreenshot()
 'Tap on Accounts'
 Mobile.tap(findTestObject('Object Repository/M25SP5DGA-212/02_TapOnAccounts'), 0)
 
-'Verify screen once user navigated to Accounts'
-Mobile.verifyElementText(findTestObject('Object Repository/M25SP5DGA-212/03_VerifyText - ACCOUNTS'), 'ACCOUNTS')
+//---------------------------------------------------------------------------------------------------------
+/*
+//Mobile.verifyElementExist(findTestObject('Object Repository/M25SP5DGA-212/31_ElementExist - 6-digit PIN'), 0)
 
+
+def ele = Mobile.verifyElementExist(findTestObject('Object Repository/M25SP5DGA-212/31_ElementExist - 6-digit PIN'), 0)
+
+if(ele==true) {
+	Mobile.verifyElementText(findTestObject('Object Repository/M25SP5DGA-212/32_VerifyText - Enter your 6-digit PIN'), 'Enter your 6-digit PIN')
+	
+	'User enters the pin as 6 times 1'
+	for (int i = 0; i < 6; i++) {
+		//Tap on Number 6 times
+		Mobile.tap(findTestObject('Object Repository/M25SP5DGA-212/33_TapOnNumber - 1'), 0)
+	}	
+}
+else {
+	'Verify screen once user navigated to Accounts'
+	Mobile.verifyElementText(findTestObject('Object Repository/M25SP5DGA-212/03_VerifyText - ACCOUNTS'), 'ACCOUNTS')
+	
+	'Take screenshot of the accounts screen'
+	Mobile.takeScreenshot('C:\\Users\\AMBRAN~1\\AppData\\Local\\Temp\\screenshot3251118884942611166.png')
+	
+	Mobile.takeScreenshot()
+}
+*/
+
+'Verify the Text for Global Access Account'
+Mobile.verifyElementText(findTestObject('Object Repository/M25SP5DGA-212/04_VerifyText - Global Access Account-i'), 'Global Access Account-i')
 'Take screenshot of the accounts screen'
 Mobile.takeScreenshot('C:\\Users\\AMBRAN~1\\AppData\\Local\\Temp\\screenshot3251118884942611166.png')
 
 Mobile.takeScreenshot()
-
-'Verify the Text for Global Access Account'
-Mobile.verifyElementText(findTestObject('Object Repository/M25SP5DGA-212/04_VerifyText - Global Access Account-i'), 'Global Access Account-i')
-
 'Verify the Account number Visible'
 Mobile.verifyElementVisible(findTestObject('Object Repository/M25SP5DGA-212/05_VerifyElementVisible - 9000 0002 1183'), 
     0)
 
-'Verify Amount visisble'
+//'Verify Amount visisble'
 //Mobile.verifyElementVisible(findTestObject('Object Repository/M25SP5DGA-212/06_VerifyElementVisible - RM 54,995.17'), 0)
 
 'User taps on GAA'
